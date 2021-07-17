@@ -24,9 +24,8 @@ const About = () => {
           </div>
           <p>
             Mikäli haluat tarkistaa ennen hakemusta, että osoitteesi on Uskelan
-            alueella hyödyntäen yllä olevaa kaupungin karttaa ja ohjeita.
-            Painamalla "suurenna karttaa" pääset kaupungin karttapalveluun,
-            jossa voit katsoa oman osoitteesi sijainnin kartalla.
+            alueella hyödyntäen yllä olevaa kaupungin karttaa ja ohjeita. Pääset hakemaan om
+            karttaan painamalla kartan oikeasta ylänurkasta "suurenna karttaa". 
           </p>
           <p>
             Hakemus tulee lähettää sähköpostiosoitteeseemme:{" "}

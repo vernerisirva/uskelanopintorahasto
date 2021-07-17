@@ -1,6 +1,4 @@
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
+let env = process.env.NODE_ENV || "development"
 
 module.exports = {
   siteMetadata: {
@@ -47,8 +45,7 @@ module.exports = {
         resourceType: `image`,
         prefix: `gatsby-source-cloudinary/`,
       },
-    },
-    `gatsby-plugin-gatsby-cloud`,
+    }`gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

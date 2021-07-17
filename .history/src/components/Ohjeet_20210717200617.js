@@ -19,6 +19,8 @@ const About = () => {
             <iframe
               width="1000"
               height="1000"
+              style="border:0"
+              frameborder="0"
               src="https://kartta.salo.fi/IMS/fi/embed?layers=Opaskartta&lon=Kuntarajat%202008%20025-64&lon=Salo%201966%20025-64&cp=6697536,23516192&z=32&ui=z!g!o"
             ></iframe>
           </div>

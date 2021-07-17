@@ -3561,6 +3561,21 @@
   dependencies:
     "mimic-response" "^1.0.0"
 
+"cloudinary-core@^2.10.2":
+  "integrity" "sha512-F1BZczD6f5mB73D0c8gl/iuacVQQO+UhckNZxeeS9ZIVeIHbsfqwWiAZMQmIvEb7Wti/9MLU0xVwaWOak2THHA=="
+  "resolved" "https://registry.npmjs.org/cloudinary-core/-/cloudinary-core-2.11.4.tgz"
+  "version" "2.11.4"
+
+"cloudinary@^1.11.0":
+  "integrity" "sha512-C42qx+Be+pOIbZSZ9+qYTzKpddYkXqdFioD0mf+Tp7K6Lb61rUjROAqJhsz+RP/ZOnGBHTAkhujcooAyZkx0Kw=="
+  "resolved" "https://registry.npmjs.org/cloudinary/-/cloudinary-1.26.2.tgz"
+  "version" "1.26.2"
+  dependencies:
+    "cloudinary-core" "^2.10.2"
+    "core-js" "3.6.5"
+    "lodash" "^4.17.11"
+    "q" "^1.5.1"
+
 "coa@^2.0.2":
   "integrity" "sha512-q5/jG+YQnSy4nRTV4F7lPepBJZ8qBNJJDBuJdoejDyLXgmL7IEo+Le2JDZudFTFt7mrCqIRaSjws4ygRCTCAXA=="
   "resolved" "https://registry.npmjs.org/coa/-/coa-2.0.2.tgz"
@@ -3886,6 +3901,11 @@
   "integrity" "sha512-tKs41J7NJVuaya8DxIOCnl8QuPHx5/ZVbFo1oKgVl1qHFBBrDctzQGtuLjPpRdNTWmKPH6oEvgN/MUID+l485Q=="
   "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.15.2.tgz"
   "version" "3.15.2"
+
+"core-js@3.6.5":
+  "integrity" "sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA=="
+  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.6.5.tgz"
+  "version" "3.6.5"
 
 "core-util-is@~1.0.0":
   "integrity" "sha1-tf1UIgqivFq1eqtxQMlAdUUDwac="
@@ -4737,7 +4757,7 @@
   dependencies:
     "is-obj" "^2.0.0"
 
-"dotenv@^8.2.0":
+"dotenv@^8.2.0", "dotenv@^8.6.0":
   "integrity" "sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g=="
   "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-8.6.0.tgz"
   "version" "8.6.0"
@@ -6008,6 +6028,11 @@
     "tmp" "^0.2.1"
     "xdg-basedir" "^4.0.0"
 
+"gatsby-env-variables@^2.0.0":
+  "integrity" "sha512-j9VsPrhIk45Plg2lb8bjq8+mFyFl7tB+H187PTMhZpKNa+o+RRAKyZqDTT9trRBW/nDivnW0/fSGyFSsY4Iy+g=="
+  "resolved" "https://registry.npmjs.org/gatsby-env-variables/-/gatsby-env-variables-2.0.0.tgz"
+  "version" "2.0.0"
+
 "gatsby-graphiql-explorer@^1.9.0":
   "integrity" "sha512-EOnAQPvAcBYD9ngHS3RezgWg7m7qGk8Ik5D7owYFPHhLVT0IwCDcPe26s8KGMojVpEvgCwXkiIHUOeqo7sTWjA=="
   "resolved" "https://registry.npmjs.org/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-1.9.0.tgz"
@@ -6256,6 +6281,14 @@
     "xstate" "^4.9.1"
     "yoga-layout-prebuilt" "^1.9.6"
 
+"gatsby-source-cloudinary@^0.1.14":
+  "integrity" "sha512-qL+ShxmekYEnj3RoEW86v6fYPuDK44nLYVznNjQ8WefAVc+1w4Yf6wmHKM6DQevs3t2ABnFGYaG+tAQzJT/Wfg=="
+  "resolved" "https://registry.npmjs.org/gatsby-source-cloudinary/-/gatsby-source-cloudinary-0.1.14.tgz"
+  "version" "0.1.14"
+  dependencies:
+    "cloudinary" "^1.11.0"
+    "lodash.snakecase" "^4.1.1"
+
 "gatsby-source-filesystem@^3.0.0-next.0", "gatsby-source-filesystem@^3.9.0":
   "integrity" "sha512-Zgdscq4bMJy9KfZAN9daAxKytJBoxqvU3wckPR/74BgqZ89FNsy0bo0ABqbfz02NgdMxcn2XyPLUQ4eFJwHRvg=="
   "resolved" "https://registry.npmjs.org/gatsby-source-filesystem/-/gatsby-source-filesystem-3.9.0.tgz"
@@ -6316,7 +6349,7 @@
   dependencies:
     "@babel/core" "^7.14.0"
 
-"gatsby@^2.0.0 || ^3.0.0", "gatsby@^3.0.0", "gatsby@^3.0.0-next.0", "gatsby@^3.9.1":
+"gatsby@^2.0.0 || ^3.0.0", "gatsby@^3.0.0", "gatsby@^3.0.0-next.0", "gatsby@^3.9.1", "gatsby@>2.0.0":
   "integrity" "sha512-lc0bP7jJwDD5z69WS4PwddPfEKR70UQTFMjEV+BBNAmrm0ZptA1sVmBVaIfclFIUXk5UmBvf7V5m9cS0/jNa0Q=="
   "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-3.9.1.tgz"
   "version" "3.9.1"
@@ -8466,6 +8499,11 @@
   "resolved" "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz"
   "version" "4.6.2"
 
+"lodash.snakecase@^4.1.1":
+  "integrity" "sha1-OdcUo1NXFHg3rv1ktdy7Fr7Nj40="
+  "resolved" "https://registry.npmjs.org/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz"
+  "version" "4.1.1"
+
 "lodash.template@^4.4.0":
   "integrity" "sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A=="
   "resolved" "https://registry.npmjs.org/lodash.template/-/lodash.template-4.5.0.tgz"
@@ -8496,7 +8534,7 @@
   "resolved" "https://registry.npmjs.org/lodash.without/-/lodash.without-4.4.0.tgz"
   "version" "4.4.0"
 
-"lodash@^4.17.10", "lodash@^4.17.11", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.19", "lodash@^4.17.20", "lodash@^4.17.21", "lodash@^4.17.4", "lodash@4.17.21":
+"lodash@^4.17.10", "lodash@^4.17.11", "lodash@^4.17.14", "lodash@^4.17.15", "lodash@^4.17.19", "lodash@^4.17.20", "lodash@^4.17.21", "lodash@^4.17.4", "lodash@>=4.0", "lodash@4.17.21":
   "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
   "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
@@ -10598,7 +10636,7 @@
   dependencies:
     "escape-goat" "^2.0.0"
 
-"q@^1.1.2":
+"q@^1.1.2", "q@^1.5.1":
   "integrity" "sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc="
   "resolved" "https://registry.npmjs.org/q/-/q-1.5.1.tgz"
   "version" "1.5.1"

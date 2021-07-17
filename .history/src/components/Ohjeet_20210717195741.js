@@ -18,8 +18,8 @@ const About = () => {
           <div className="kartta2">
             <iframe
               width="1000"
-              height="1000"
-              src="https://kartta.salo.fi/IMS/fi/embed?layers=Opaskartta&lon=Kuntarajat%202008%20025-64&lon=Salo%201966%20025-64&cp=6697536,23516192&z=32&ui=z!g!o"
+              height="820"
+              src="https://kartta.salo.fi/IMS/fi/embed?layers=Opaskartta&lon=Kuntarajat%202008%20025-64&lon=Salo%201966%20025-64&cp=6678656,23507264&z=64&ui=z!g!o"
             ></iframe>
           </div>
           <p>

@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 
 // markup
 const IndexPage = ({ children }) => {
-  console.log("api-key", process.env.CLOUDINARY_API_KEY)
+  console.log(process.env.CLOUDINARY_API_KEY)
   return (
     <>
       <Layout></Layout>

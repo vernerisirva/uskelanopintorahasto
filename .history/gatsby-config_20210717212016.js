@@ -1,7 +1,5 @@
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
-
+require("dotenv").config()
+console.log(process.env.CLOUDINARY_CLOUD_NAME)
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -45,8 +43,7 @@ module.exports = {
         apiKey: process.env.CLOUDINARY_API_KEY,
         apiSecret: process.env.CLOUDINARY_API_SECRET,
         resourceType: `image`,
-        type: `type Value`,
-        prefix: `abc-xyz/`,
+        prefix: `gatsby-source-cloudinary/`,
       },
     },
     `gatsby-plugin-gatsby-cloud`,

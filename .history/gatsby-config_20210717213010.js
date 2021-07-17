@@ -1,8 +1,5 @@
 require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
-
-module.exports = {
+  path: `.env`,
   siteMetadata: {
     title: `Gatsby Default Starter`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,

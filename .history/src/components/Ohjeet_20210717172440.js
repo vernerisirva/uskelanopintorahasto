@@ -10,9 +10,13 @@ const About = () => {
         <article className="about-text">
           <p id="historia"></p> <Title title="Ohjeet hakuun" />
           <p>
-            Alla olevassa kartassa näkyy Uskelan alue. Vanha Salon alue eivätkä
-            vanhat ympäryskunnat kuten Halikko, Pertteli ja Muurla kuulu Uskelan
-            alueeseen.
+            Alla olevassa kartassa näkyy Uskelan alue. Uskelaan kuulumattomat
+            alueet on maalattu sinisellä. Selvennyksenä kuvaan on merkitty
+            keltaisia ja punaisia palloja. Mikäli osoitteesi on samalla puolella
+            kuin keltaisella merkityt pallot, osoitteesi ei kuulu Uskelaan. Jos
+            taas osoitteesi on samalla puolella kuin punainen pallo, niin osoite
+            on Uskelan alueella. Vanha Salon alue eivätkä vanhat ympäryskunnat
+            kuten Halikko, Pertteli ja Muurla kuulu Uskelan alueeseen.
           </p>
           <div className="kartta2">
             <iframe

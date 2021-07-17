@@ -10,9 +10,13 @@ const About = () => {
         <article className="about-text">
           <p id="historia"></p> <Title title="Ohjeet hakuun" />
           <p>
-            Alla olevassa kartassa näkyy Uskelan alue. Vanha Salon alue eivätkä
-            vanhat ympäryskunnat kuten Halikko, Pertteli ja Muurla kuulu Uskelan
-            alueeseen.
+            Alla olevassa kuvassa näkyy Uskelan alue. Uskelaan kuulumattomat
+            alueet on maalattu sinisellä. Selvennyksenä kuvaan on merkitty
+            keltaisia ja punaisia palloja. Mikäli osoitteesi on samalla puolella
+            kuin keltaisella merkityt pallot, osoitteesi ei kuulu Uskelaan. Jos
+            taas osoitteesi on samalla puolella kuin punainen pallo, niin osoite
+            on Uskelan alueella. Vanha Salon alue eivätkä vanhat ympäryskunnat
+            kuten Halikko, Pertteli ja Muurla kuulu Uskelan alueeseen.
           </p>
           <div className="kartta2">
             <iframe
@@ -33,14 +37,20 @@ const About = () => {
               info@uskelanopintorahastosaatio.fi.{" "}
             </a>
           </p>
-          {/* <p className="hakemuspainike">
+          <p className="hakemuspainike">
             <button className="btn">
               <a href="https://kartta.salo.fi/IMS/fi/embed?layers=Opaskartta&lon=Kuntarajat%202008%20025-64&lon=Salo%201966%20025-64&cp=6692032,23496256&z=64&ui=z!g!o">
                 {" "}
                 <span className="linkki">Uskelan kartta</span>{" "}
               </a>
             </button>{" "}
-          </p> */}
+            {/* <button className="button">
+              <a href={downloadFile}>
+                {" "}
+                <span className="linkki">Hakemuslomake</span>{" "}
+              </a>
+            </button> */}
+          </p>
           <div className="about-stack"></div>
         </article>
       </div>

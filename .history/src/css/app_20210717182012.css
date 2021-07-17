@@ -165,15 +165,13 @@ Navbar
   display: none;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 910px) {
   .toggle-btn {
     display: none;
   }
   .nav-links {
     display: flex;
     justify-content: flex-end;
-    overflow: hidden;
-    white-space: nowrap;
   }
   .nav-links li {
     margin-right: 2rem;

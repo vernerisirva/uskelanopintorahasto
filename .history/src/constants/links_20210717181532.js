@@ -9,8 +9,8 @@ const data = [
   },
   {
     id: 2,
-    text: "Uskelan vaakuna",
-    url: "/#uskelanvaakuna",
+    text: "Tietoa säätiöstä",
+    url: "/#tietoasaatiosta",
   },
   {
     id: 3,

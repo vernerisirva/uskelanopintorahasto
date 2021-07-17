@@ -9,26 +9,26 @@ const data = [
   },
   {
     id: 2,
-    text: "Uskelan vaakuna",
-    url: "/#uskelanvaakuna",
-  },
-  {
-    id: 3,
     text: "Tietoa säätiöstä",
     url: "/#tietoasaatiosta",
   },
   {
-    id: 4,
+    id: 2,
+    text: "Tietoa säätiöstä",
+    url: "/#tietoasaatiosta",
+  },
+  {
+    id: 3,
     text: "Ajankohtaista",
     url: "/#Ajankohtaista",
   },
   {
-    id: 5,
+    id: 4,
     text: "Hakemus",
     url: "/#hakemus",
   },
   {
-    id: 6,
+    id: 5,
     text: "Kuvia",
     url: "/kuvia",
   },

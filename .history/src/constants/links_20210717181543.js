@@ -9,7 +9,7 @@ const data = [
   },
   {
     id: 2,
-    text: "Uskelan vaakuna",
+    text: "Tietoa säätiöstä",
     url: "/#uskelanvaakuna",
   },
   {

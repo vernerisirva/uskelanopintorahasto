@@ -9,7 +9,7 @@ const About = () => {
       <div className="section-center about-center">
         <article className="about-text">
           <div className="container">
-            <div id="uskelanvaakuna">
+            <div id="">
               <StaticImage
                 src="../images/icon.png"
                 className="about-img"

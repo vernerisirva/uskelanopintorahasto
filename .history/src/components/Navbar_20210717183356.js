@@ -7,9 +7,9 @@ const Navbar = ({ toggleSidebar }) => {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <h4>
-            <a href="/"> Uskelan opintorahastosäätiö</a>
-          </h4>
+          <h4 >
+              Uskelan opintorahastosäätiö
+              </h4>
           <button type="button" className="toggle-btn" onClick={toggleSidebar}>
             <FaAlignRight></FaAlignRight>
           </button>

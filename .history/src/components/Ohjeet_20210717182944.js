@@ -2,7 +2,6 @@ import React from "react"
 import Title from "../components/Title"
 // import downloadFile from "../assets/hakemus/uskela.pdf"
 import Hakemuslomake from "../assets/Hakemuslomake.pdf"
-import Rekisteriseloste from "../assets/Rekisteriseloste.pdf"
 
 const About = () => {
   return (
@@ -36,13 +35,13 @@ const About = () => {
           </p>
           <p className="hakemuspainike">
             <button className="btn">
-              <a href={Hakemuslomake}>
+              <a href="../assets/Hakemuslomake.pdf">
                 {" "}
                 <span className="linkki">Hakemuslomake</span>{" "}
               </a>
             </button>{" "}
             <button className="btn">
-              <a href={Rekisteriseloste}>
+              <a href="https://kartta.salo.fi/IMS/fi/embed?layers=Opaskartta&lon=Kuntarajat%202008%20025-64&lon=Salo%201966%20025-64&cp=6692032,23496256&z=64&ui=z!g!o">
                 {" "}
                 <span className="linkki">Rekisteriseloste</span>{" "}
               </a>

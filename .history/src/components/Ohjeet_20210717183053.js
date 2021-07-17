@@ -42,7 +42,7 @@ const About = () => {
               </a>
             </button>{" "}
             <button className="btn">
-              <a href={Rekisteriseloste}>
+              <a href=>
                 {" "}
                 <span className="linkki">Rekisteriseloste</span>{" "}
               </a>

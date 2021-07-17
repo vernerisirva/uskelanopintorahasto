@@ -15,8 +15,8 @@ const About = () => {
                 className="about-img"
               ></StaticImage>
             </div>
-            <div className="vaakuna-text">
-              <Title title="Uskelan vaakuna" />
+            <div className="vaakune-text">
+                <Title title="Uskelan vaakuna" /></Title>
               <p>
                 Vuonna 1952 Uskelan kunnanvaltuusto valitsi kolmesta
                 ehdotuksesta Gustav von Numersin suunnitteleman vaakunan, jossa

@@ -15,7 +15,7 @@ const About = () => {
                 className="about-img"
               ></StaticImage>
             </div>
-            <div className="vaakuna-text">
+            <div className="vaakune-text">
               <Title title="Uskelan vaakuna" />
               <p>
                 Vuonna 1952 Uskelan kunnanvaltuusto valitsi kolmesta

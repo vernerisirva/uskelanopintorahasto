@@ -9,21 +9,11 @@ const About = () => {
       <div className="section-center about-center">
         <article className="about-text">
           <div className="container">
-            <div>
-              <StaticImage
-                src="../images/icon.png"
-                className="about-img"
-              ></StaticImage>
-            </div>
-            <div className="vaakuna-text">
-              <Title title="Uskelan vaakuna" />
-              <p>
-                Vuonna 1952 Uskelan kunnanvaltuusto valitsi kolmesta
-                ehdotuksesta Gustav von Numersin suunnitteleman vaakunan, jossa
-                punaisessa kentässä kaksi hopeista häränsarvea muodostaa
-                U-kirjaimen. Sarvien välissä on kultainen lilja.
-              </p>
-            </div>
+              <div></div>
+            <StaticImage
+              src="../images/icon.png"
+              className="about-img"
+            ></StaticImage>
           </div>
           <div>
             <p id="tietoasaatiosta"></p> <Title title="Tietoa säätiöstä" />

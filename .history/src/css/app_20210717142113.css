@@ -243,9 +243,9 @@ About Page
 /* 11 */
 
 .about-img {
-  display: block !important;
+  display: block;
   margin-left: auto !important;
-  margin-right: auto !important;
+  margin-right: auto;
   margin-bottom: 3rem;
   height: auto;
   width: 40%;

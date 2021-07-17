@@ -1,5 +1,5 @@
 require("dotenv").config({
-  path: ".env",
+  path: `.env.${process.env.NODE_ENV}`,
 })
 
 module.exports = {
@@ -37,12 +37,13 @@ module.exports = {
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
+
     {
       resolve: `gatsby-source-cloudinary`,
       options: {
-        cloudName: process.env.CLOUDINARY_CLOUD_NAME,
-        apiKey: process.env.CLOUDINARY_API_KEY,
-        apiSecret: process.env.CLOUDINARY_API_SECRET,
+        cloudName: `uskelan-opintorahasto`,
+        apiKey: `953779348649333`,zzz
+        apiSecret: `-kEf2f5g9Ktiq5STf2v5Q3G6-Zw`,
         resourceType: `image`,
         type: `type Value`,
         prefix: `abc-xyz/`,

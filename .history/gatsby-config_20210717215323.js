@@ -1,5 +1,5 @@
 require("dotenv").config({
-  path: ".env",
+  path: `.env.${process.env.NODE_ENV}`,
 })
 
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
-  plugins: [
+  plugins: [§
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     "gatsby-plugin-styled-components",

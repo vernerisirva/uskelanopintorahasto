@@ -1,5 +1,5 @@
 require("dotenv").config({
-  path: ".env",
+  path: `.env.${process.env.NODE_ENV}`,
 })
 
 module.exports = {
@@ -37,6 +37,7 @@ module.exports = {
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
+
     {
       resolve: `gatsby-source-cloudinary`,
       options: {

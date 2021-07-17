@@ -231,7 +231,7 @@ Hero
 
 .hero-img {
   height: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /*
@@ -344,7 +344,7 @@ Navbar
 */
 
 .button {
-  background: var(--clr-grey-1);
+  background: var(--clr-red-uskela);
   border: none;
   color: white;
   padding: 6px 20px;
@@ -584,5 +584,5 @@ Sidebar Animation
 }
 
 .hakemus {
-  margin-top: -4rem;
+  margin-top: -2rem;
 }

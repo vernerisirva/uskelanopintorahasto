@@ -5,7 +5,6 @@ import Footer from "./Footer"
 import About from "./About"
 import Hero from "./Hero"
 import Hakemus from "./Hakemus"
-
 const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = React.useState(false)
   const toggleSidebar = () => {
@@ -18,7 +17,7 @@ const Layout = ({ children }) => {
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       <Hero />
       <About />
-      <Hakemus />
+
       <Footer />
     </>
   )

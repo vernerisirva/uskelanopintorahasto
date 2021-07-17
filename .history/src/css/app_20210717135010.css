@@ -231,7 +231,7 @@ Hero
 
 .hero-img {
   height: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /*
@@ -246,7 +246,6 @@ About Page
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 3rem;
   height: auto;
   width: 40%;
 }
@@ -310,6 +309,7 @@ About Page
   margin-right: auto;
 }
 .section-title {
+  margin-bottom: 4rem;
   text-align: center;
 }
 .bg-grey {
@@ -344,7 +344,7 @@ Navbar
 */
 
 .button {
-  background: var(--clr-grey-1);
+  background: var(--clr-red-uskela);
   border: none;
   color: white;
   padding: 6px 20px;
@@ -583,6 +583,6 @@ Sidebar Animation
   align-items: center !important;
 }
 
-.hakemus {
-  margin-top: -4rem;
+.gallery-page footer {
+  margin-top: 29rem;
 }

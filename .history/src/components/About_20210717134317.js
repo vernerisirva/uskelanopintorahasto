@@ -4,10 +4,12 @@ import Title from "../components/Title"
 import { StaticImage } from "gatsby-plugin-image"
 
 const About = () => {
+
   return (
     <section className="about-page">
       <div className="section-center about-center">
         <article className="about-text">
+            
           <StaticImage
             src="../images/icon.png"
             className="about-img"

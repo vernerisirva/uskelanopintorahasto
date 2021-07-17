@@ -10,7 +10,9 @@ const About = () => {
       <div className="section-center about-center">
         <article className="about-text">
           <p id="historia"></p> <Title title="Ohjeet hakuun" />
-          <p></p>
+          <p>
+            Alla olevassa kartassa 
+          </p>
           <div className="kartta2">
             <iframe
               width="1000"

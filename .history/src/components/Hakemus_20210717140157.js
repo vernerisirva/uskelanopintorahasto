@@ -10,11 +10,14 @@ const hakemus = () => {
           <Title title="Apurahahakemus" />
           <p>Pääset hakuohjeisiin alla olevasta painikkeesta.</p>
           <p>
-            <button type="button" class="btn">
+            <button className="button">
               <a href="/stipendi">
                 {" "}
                 <span className="linkki">Hae apurahaa</span>{" "}
               </a>
+            </button>
+            <button type="button" class="btn btn-primary">
+              Primary
             </button>
           </p>
         </div>

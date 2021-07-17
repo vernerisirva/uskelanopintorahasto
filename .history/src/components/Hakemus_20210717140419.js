@@ -1,5 +1,6 @@
 import React from "react"
 import Title from "../components/Title"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const hakemus = () => {
   return (
@@ -10,7 +11,7 @@ const hakemus = () => {
           <Title title="Apurahahakemus" />
           <p>Pääset hakuohjeisiin alla olevasta painikkeesta.</p>
           <p>
-            <button type="button" class="btn">
+            <button type="button" class="btn btn-secondary">
               <a href="/stipendi">
                 {" "}
                 <span className="linkki">Hae apurahaa</span>{" "}

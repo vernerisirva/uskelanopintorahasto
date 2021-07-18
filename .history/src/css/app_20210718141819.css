@@ -558,8 +558,8 @@ Sidebar Animation
 .sidebar-icons li:nth-of-type(5) {
   animation-delay: 1.25s;
 }
-.sidebar-icons li:nth-of-type(6) {
-  animation-delay: 1.5s;
+.sidebar-icons li:nth-of-type(5) {
+  animation-delay: 1.25s;
 }
 @keyframes slideUp {
   0% {

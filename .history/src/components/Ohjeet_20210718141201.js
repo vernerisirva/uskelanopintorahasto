@@ -35,8 +35,7 @@ const About = () => {
             </a>
             Pakollisia liitteitä ovat jäljennös viimeisestä
             koulu/opiskelutodistuksesta sekä todistus opiskelupaikasta.
-            Hakemuksen vastaanottamisesta tulee automaattinen
-            vastaanottokuittaus.
+            Hakemuksen vastaanottamisesta tulee vastaanottokuittaus.
           </p>
           <p className="hakemuspainike">
             <button className="btn">

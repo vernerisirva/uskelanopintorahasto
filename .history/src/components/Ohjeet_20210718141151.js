@@ -34,9 +34,7 @@ const About = () => {
               info@uskelanopintorahasto.fi.{" "}
             </a>
             Pakollisia liitteitä ovat jäljennös viimeisestä
-            koulu/opiskelutodistuksesta sekä todistus opiskelupaikasta.
-            Hakemuksen vastaanottamisesta tulee automaattinen
-            vastaanottokuittaus.
+            koulu/opiskelutodistuksesta sekä todistus opiskelupaikasta. Hakemuksen vastaanottamisesta 
           </p>
           <p className="hakemuspainike">
             <button className="btn">

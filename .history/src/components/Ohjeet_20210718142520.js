@@ -37,9 +37,9 @@ const About = () => {
             </span>
             . Vanha Salon alue ja vanhat ympäryskunnat kuten Halikko, Pertteli
             ja Muurla eivät kuulu Uskelan alueeseen. Vanha Salon alue on
-            merkitty karttaan liilan värisillä rajoilla. Kaupungin
-            karttapalvelussa voit myös tarkistaa oman osoitteesi sijainnin
-            kartalla.
+            merkitty karttaan liilan värisillä rajoilla. Painamalla "suurenna
+            karttaa" oikeasta yläkulmasta pääset kaupungin karttapalveluun,
+            jossa voit katsoa oman osoitteesi sijainnin kartalla.
           </p>
           <p>
             Hakemus pakollisine liitteineen tulee lähettää

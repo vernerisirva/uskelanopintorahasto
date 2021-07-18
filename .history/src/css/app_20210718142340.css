@@ -662,3 +662,7 @@ Sidebar Animation
     display: none;
   }
 }
+
+.kartta1 {
+  display: grid;
+}

@@ -530,7 +530,7 @@ Sidebar Animation
   animation-delay: 1.25s;
 }
 .sidebar-links li:nth-of-type(6) {
-  animation-delay: 1.5s;
+  animation-delay: 1.5;
 }
 @keyframes slideRight {
   0% {
@@ -548,6 +548,7 @@ Sidebar Animation
 }
 .sidebar-icons li:nth-of-type(1) {
   animation-delay: 0.25s;
+  
 }
 .sidebar-icons li:nth-of-type(2) {
   animation-delay: 0.5s;
@@ -657,8 +658,5 @@ Sidebar Animation
   .kartta2 {
     display: grid;
     border: 0;
-  }
-  .kartta1 {
-    display: none;
   }
 }

@@ -32,14 +32,14 @@ const About = () => {
             alueella voit hyödyntää{" "}
             <span>
               <a href="https://kartta.salo.fi/IMS/fi/embed?layers=Opaskartta&lon=Kuntarajat%202008%20025-64&lon=Salo%201966%20025-64&cp=6697344,23509952&z=32&ui=z!g!o">
-                kaupungin karttapalvelua
+                kaupungin karttapalvelya
               </a>
             </span>
             . Vanha Salon alue ja vanhat ympäryskunnat kuten Halikko, Pertteli
             ja Muurla eivät kuulu Uskelan alueeseen. Vanha Salon alue on
-            merkitty karttaan liilan värisillä rajoilla. Kaupungin
-            karttapalvelussa voit myös tarkistaa oman osoitteesi sijainnin
-            kartalla.
+            merkitty karttaan liilan värisillä rajoilla. Painamalla "suurenna
+            karttaa" oikeasta yläkulmasta pääset kaupungin karttapalveluun,
+            jossa voit katsoa oman osoitteesi sijainnin kartalla.
           </p>
           <p>
             Hakemus pakollisine liitteineen tulee lähettää

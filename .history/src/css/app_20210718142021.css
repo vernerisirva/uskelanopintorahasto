@@ -529,9 +529,6 @@ Sidebar Animation
 .sidebar-links li:nth-of-type(5) {
   animation-delay: 1.25s;
 }
-.sidebar-links li:nth-of-type(6) {
-  animation-delay: 1.5s;
-}
 @keyframes slideRight {
   0% {
     transform: translateX(-200px);
@@ -657,8 +654,5 @@ Sidebar Animation
   .kartta2 {
     display: grid;
     border: 0;
-  }
-  .kartta1 {
-    display: none;
   }
 }

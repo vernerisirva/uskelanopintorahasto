@@ -658,7 +658,8 @@ Sidebar Animation
     display: grid;
     border: 0;
   }
-  .kartta1 {
-    display: none;
-  }
+}
+
+.kartta1 {
+  
 }

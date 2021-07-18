@@ -5,7 +5,8 @@ const Footer = () => {
     <footer className="footer">
       <div>
         <h5>
-          <span> Uskelan opintorahastosäätiö </span>
+          copyright&copy;{new Date().getFullYear()}
+          <span> Uskelan opintorahastosäätiö </span> Kaikki oikeudet pidätetään
         </h5>
       </div>
     </footer>

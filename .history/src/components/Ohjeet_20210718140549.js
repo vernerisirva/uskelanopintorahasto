@@ -1,5 +1,6 @@
 import React from "react"
 import Title from "../components/Title"
+// import downloadFile from "../assets/hakemus/uskela.pdf"
 import Hakemuslomake from "../assets/Hakemuslomake.pdf"
 import Rekisteriseloste from "../assets/Rekisteriseloste.pdf"
 

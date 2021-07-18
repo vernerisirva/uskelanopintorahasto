@@ -31,10 +31,9 @@ const About = () => {
             Hakemus pakollisine liitteineen tulee lähettää
             sähköpostiosoitteeseemme:{" "}
             <a href="mailto: info@uskelanopintorahsto.fi">
-              info@uskelanopintorahasto.fi.{" "}
+              info@uskelanopintorahasto.fi 
             </a>
-            Pakollisia liitteitä ovat jäljennös viimeisestä
-            koulu/opiskelutodistuksesta sekä todistus opiskelupaikasta.
+            Pakollisiin liitteisiin kuuluu
           </p>
           <p className="hakemuspainike">
             <button className="btn">

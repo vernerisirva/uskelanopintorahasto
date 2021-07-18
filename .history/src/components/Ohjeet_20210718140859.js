@@ -28,13 +28,10 @@ const About = () => {
             osoitteesi sijainnin kartalla.
           </p>
           <p>
-            Hakemus pakollisine liitteineen tulee lähettää
-            sähköpostiosoitteeseemme:{" "}
+            Hakemus pakollisine liitteineen tulee lähettää sähköpostiosoitteeseemme:{" "}
             <a href="mailto: info@uskelanopintorahsto.fi">
-              info@uskelanopintorahasto.fi.{" "}
+              info@uskelanopintorahasto.fi{" "}
             </a>
-            Pakollisia liitteitä ovat jäljennös viimeisestä
-            koulu/opiskelutodistuksesta sekä todistus opiskelupaikasta.
           </p>
           <p className="hakemuspainike">
             <button className="btn">

@@ -16,17 +16,21 @@ const About = () => {
               width="1000"
               height="1000"
               title="Uskelan kartta"
-              src="https://kartta.salo.fi/IMS/fi/embed?layers=Opaskartta&lon=Kuntarajat%202008%20025-64&lon=Salo%201966%20025-64&cp=6697344,23509952&z=32&ui=z!g!o"
+              src="https://kartta.salo.fi/IMS/fi/embed?layers=Opaskartta&lon=Kuntarajat%202008%20025-64&lon=Salo%201966%20025-64&cp=6697536,23516192&z=32&ui=z!g!o"
             ></iframe>
           </div>
+          <iframe
+            width="1000"
+            height="1000"
+            style="border:0"
+            frameborder="0"
+            src="https://kartta.salo.fi/IMS/fi/embed?layers=Opaskartta&lon=Kuntarajat%202008%20025-64&lon=Salo%201966%20025-64&cp=6697344,23509952&z=32&ui=z!g!o"
+          ></iframe>
           <p>
             Mikäli haluat tarkistaa ennen hakemusta, että osoitteesi on Uskelan
-            alueella voit hyödyntää yllä olevaa kaupungin karttaa. Vanha Salon
-            alue ja vanhat ympäryskunnat kuten Halikko, Pertteli ja Muurla eivät
-            kuulu Uskelan alueeseen. Vanha Salon alue on merkitty karttaan
-            liilan värisillä rajoilla. Painamalla "suurenna karttaa" oikeasta
-            yläkulmasta pääset kaupungin karttapalveluun, jossa voit katsoa oman
-            osoitteesi sijainnin kartalla.
+            alueella hyödyntäen yllä olevaa kaupungin karttaa ja ohjeita.
+            Painamalla "suurenna karttaa" pääset kaupungin karttapalveluun,
+            jossa voit katsoa oman osoitteesi sijainnin kartalla.
           </p>
           <p>
             Hakemus tulee lähettää sähköpostiosoitteeseemme:{" "}

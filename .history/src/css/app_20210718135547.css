@@ -649,7 +649,6 @@ Sidebar Animation
 
 @media screen and (min-width: 992px) {
   .kartta2 {
-    display: grid;
     border: 0;
   }
 }

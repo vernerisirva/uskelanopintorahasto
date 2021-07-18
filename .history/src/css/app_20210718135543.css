@@ -643,13 +643,10 @@ Sidebar Animation
   margin-right: 0;
 }
 
-.kartta2 {
-  display: none;
-}
+.kartta2 
 
 @media screen and (min-width: 992px) {
   .kartta2 {
-    display: grid;
     border: 0;
   }
 }

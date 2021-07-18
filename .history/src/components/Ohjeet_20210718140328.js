@@ -21,12 +21,12 @@ const About = () => {
           </div>
           <p>
             Mikäli haluat tarkistaa ennen hakemusta, että osoitteesi on Uskelan
-            alueella voit hyödyntää yllä olevaa kaupungin karttaa. Vanha Salon
-            alue ja vanhat ympäryskunnat kuten Halikko, Pertteli ja Muurla eivät
+            alueella hyödyntäen yllä olevaa kaupungin karttaa. Vanha Salon alue
+            ja vanhat ympäryskunnat kuten Halikko, Pertteli ja Muurla eivät
             kuulu Uskelan alueeseen. Vanha Salon alue on merkitty karttaan
-            liilan värisillä rajoilla. Painamalla "suurenna karttaa" oikeasta
-            yläkulmasta pääset kaupungin karttapalveluun, jossa voit katsoa oman
-            osoitteesi sijainnin kartalla.
+            liilalla. Painamalla "suurenna karttaa" pääset kaupungin
+            karttapalveluun, jossa voit katsoa oman osoitteesi sijainnin
+            kartalla.
           </p>
           <p>
             Hakemus tulee lähettää sähköpostiosoitteeseemme:{" "}

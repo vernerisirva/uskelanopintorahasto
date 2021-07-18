@@ -30,12 +30,12 @@ const About = () => {
           <p>
             Hakemus tulee lähettää sähköpostiosoitteeseemme:{" "}
             <a href="mailto: info@uskelanopintorahsto.fi">
-              info@uskelanopintorahasto.fi{" "}
+              info@uskelanopintorahasto.fi.{" "}
             </a>
           </p>
           <p className="hakemuspainike">
             <button className="btn">
-              <a href={""}>
+              <a href={}>
                 {" "}
                 <span className="linkki">Hakemusilmoitus</span>{" "}
               </a>

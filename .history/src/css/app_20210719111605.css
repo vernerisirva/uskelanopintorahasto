@@ -424,10 +424,9 @@ Navbar
     grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
     column-gap: 2rem;
   }
-  .blog {
-    width: 40%;
-  }
-
+  .blog [
+      width: 100%;
+  ]
   .blog-img {
     height: 17.5rem;
   }

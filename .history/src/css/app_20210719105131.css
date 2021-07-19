@@ -359,23 +359,19 @@ Navbar
 }
 
 /* Blogs */
-.blogi {
-  margin-top: -4rem;
-}
+
 .blog {
   display: block;
   margin-bottom: 2rem;
-  margin-top: 3rem;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   transition: var(--transition);
-  width: 40%;
 }
-/* .blog:hover {
+.blog:hover {
   box-shadow: var(--dark-shadow);
   transform: scale(1.02);
-} */
+}
 .blog article {
   height: 100%;
   display: grid;
@@ -432,6 +428,22 @@ Navbar
   .blog-img {
     height: 13.75rem;
   }
+}
+
+/* Social links */
+.social-links {
+  margin-top: 2rem;
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+.social-link {
+  font-size: 1.75rem;
+  color: var(--clr-grey-1);
+  transition: var(--transition);
+}
+.social-link:hover {
+  color: var(--clr-primary-5);
 }
 
 /*
@@ -576,7 +588,7 @@ Sidebar Animation
 }
 
 .hakemus {
-  margin-top: -8rem;
+  margin-top: -4rem;
 }
 
 .btn {

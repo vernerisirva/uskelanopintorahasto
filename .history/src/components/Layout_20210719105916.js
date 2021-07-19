@@ -21,6 +21,7 @@ const Layout = ({ children }) => {
       <About />
       <Ajankohtaista />
       <Hakemus />
+
       <Footer />
     </>
   )

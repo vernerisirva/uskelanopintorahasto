@@ -359,18 +359,14 @@ Navbar
 }
 
 /* Blogs */
-.blogi {
-  margin-top: -4rem;
-}
+
 .blog {
   display: block;
   margin-bottom: 2rem;
-  margin-top: 3rem;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   transition: var(--transition);
-  width: 40%;
 }
 /* .blog:hover {
   box-shadow: var(--dark-shadow);
@@ -382,8 +378,9 @@ Navbar
   grid-template-rows: auto 1fr;
 }
 .blog-card {
-  display: grid;
+  display: block;
   grid-template-rows: auto 1fr auto;
+  width: 50%;
 }
 .blog-img {
   border-top-left-radius: var(--radius);
@@ -576,7 +573,7 @@ Sidebar Animation
 }
 
 .hakemus {
-  margin-top: -8rem;
+  margin-top: -4rem;
 }
 
 .btn {

@@ -19,8 +19,8 @@ const Layout = ({ children }) => {
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       <Hero />
       <About />
-      <Ajankohtaista />
       <Hakemus />
+      <Ajankohtaista />
       <Footer />
     </>
   )

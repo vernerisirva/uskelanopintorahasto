@@ -359,18 +359,14 @@ Navbar
 }
 
 /* Blogs */
-.blogi {
-  margin-top: -4rem;
-}
+
 .blog {
   display: block;
   margin-bottom: 2rem;
-  margin-top: 3rem;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   transition: var(--transition);
-  width: 40%;
 }
 /* .blog:hover {
   box-shadow: var(--dark-shadow);
@@ -576,7 +572,7 @@ Sidebar Animation
 }
 
 .hakemus {
-  margin-top: -8rem;
+  margin-top: -4rem;
 }
 
 .btn {

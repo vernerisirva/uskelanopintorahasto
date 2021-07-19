@@ -5,7 +5,6 @@ import Footer from "./Footer"
 import About from "./About"
 import Hero from "./Hero"
 import Hakemus from "./Hakemus"
-import Ajankohtaista from "./Ajankohtaista"
 
 const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = React.useState(false)
@@ -19,8 +18,8 @@ const Layout = ({ children }) => {
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       <Hero />
       <About />
-      <Ajankohtaista />
       <Hakemus />
+      <Ajankohtaista 
       <Footer />
     </>
   )

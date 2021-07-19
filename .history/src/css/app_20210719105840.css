@@ -359,9 +359,7 @@ Navbar
 }
 
 /* Blogs */
-.blogi {
-  margin-top: -4rem;
-}
+.blogi 
 .blog {
   display: block;
   margin-bottom: 2rem;
@@ -576,7 +574,7 @@ Sidebar Animation
 }
 
 .hakemus {
-  margin-top: -8rem;
+  margin-top: -4rem;
 }
 
 .btn {

@@ -359,9 +359,7 @@ Navbar
 }
 
 /* Blogs */
-.blogi {
-  margin-top: -4rem;
-}
+
 .blog {
   display: block;
   margin-bottom: 2rem;
@@ -573,10 +571,6 @@ Sidebar Animation
 
 .hakemuspainike {
   align-items: center !important;
-}
-
-.hakemus {
-  margin-top: -8rem;
 }
 
 .btn {

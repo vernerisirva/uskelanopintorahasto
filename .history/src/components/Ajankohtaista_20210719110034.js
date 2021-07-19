@@ -19,10 +19,8 @@ const Jobs = () => {
               className="blog-img"
             ></StaticImage>
             <div className="blog-card">
-              <h3>Apurahan haku 2021</h3>
-              <h5>
-                Apurahan haku alkaa 29.8.2021 ja päättyy syyskuun loppussa.
-              </h5>
+              <h3>Apurahan haku</h3>
+              <h5>Apurahan haku alkaa 29.8.2021 ja päättyy syyskuun loppuun</h5>
               <div className="blog-footer">
                 <p>19.07.2021</p>
               </div>

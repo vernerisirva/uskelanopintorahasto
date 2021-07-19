@@ -145,7 +145,7 @@ Navbar
   justify-content: space-between;
   align-items: center;
   padding: 0.2rem;
-  margin-left: -2rem;
+  margin-left: -rem;
   margin-right: 2rem;
   margin-top: 14px;
 }

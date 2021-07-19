@@ -157,7 +157,7 @@ Navbar
   color: var(--clr-red-uskela);
   cursor: pointer;
   transition: var(--transition);
-  margin-right: -2rem !important;
+  margin-right: auto !important;
 }
 .toggle-btn:hover {
   color: var(--clr-grey-1);

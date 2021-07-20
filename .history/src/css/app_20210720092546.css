@@ -145,7 +145,7 @@ Navbar
   justify-content: space-between;
   align-items: center;
   padding: 0.2rem;
-  margin-left: 1rem !important;
+  margin-left: -1rem !important;
   margin-right: 1rem;
   margin-top: 14px;
 }
@@ -167,10 +167,8 @@ Navbar
 }
 
 @media screen and (min-width: 576px) {
-  .nav-header {
-    margin-left: -1rem !important;
-  }
 }
+.
 
 @media screen and (min-width: 1300px) {
   .toggle-btn {

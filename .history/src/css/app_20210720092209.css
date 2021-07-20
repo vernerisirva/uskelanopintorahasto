@@ -164,12 +164,7 @@ Navbar
 }
 .nav-links {
   display: none;
-}
-
-@media screen and (min-width: 576px) {
-  .nav-header {
-    margin-left: -1rem !important;
-  }
+  margin-left: 2rem;
 }
 
 @media screen and (min-width: 1300px) {
@@ -182,7 +177,6 @@ Navbar
     overflow: hidden;
     white-space: nowrap;
   }
-
   .nav-links li {
     margin-right: 2rem;
   }

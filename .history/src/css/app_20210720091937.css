@@ -146,7 +146,7 @@ Navbar
   align-items: center;
   padding: 0.2rem;
   margin-left: 1rem !important;
-  margin-right: 1rem;
+  margin-right: 0rem;
   margin-top: 14px;
 }
 
@@ -166,12 +166,6 @@ Navbar
   display: none;
 }
 
-@media screen and (min-width: 576px) {
-  .nav-header {
-    margin-left: -1rem !important;
-  }
-}
-
 @media screen and (min-width: 1300px) {
   .toggle-btn {
     display: none;
@@ -182,7 +176,6 @@ Navbar
     overflow: hidden;
     white-space: nowrap;
   }
-
   .nav-links li {
     margin-right: 2rem;
   }

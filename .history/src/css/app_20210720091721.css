@@ -51,7 +51,7 @@ body {
   background: var(--clr-white);
   color: var(--clr-grey-1);
   line-height: 1.5;
-  font-size: 0.875rem;
+  font-size: 5rem;
   margin-top: 5rem;
 }
 ul {
@@ -166,12 +166,6 @@ Navbar
   display: none;
 }
 
-@media screen and (min-width: 576px) {
-  .nav-header {
-    margin-left: -1rem !important;
-  }
-}
-
 @media screen and (min-width: 1300px) {
   .toggle-btn {
     display: none;
@@ -182,7 +176,6 @@ Navbar
     overflow: hidden;
     white-space: nowrap;
   }
-
   .nav-links li {
     margin-right: 2rem;
   }

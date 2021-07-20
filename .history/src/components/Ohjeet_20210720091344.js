@@ -43,10 +43,9 @@ const About = () => {
           </p>
           <p>
             Alla olevista painikkeista löydät hakemusilmoituksen,
-            hakemuslomakkeen ja rekisteriselosteen. Sinun tulee tulostaa ja
-            täyttää hakemuslomake sekä ottaa valokuva tai skannata täytetty
-            hakemuslomake. Hakemuslomake pakollisine liitteineen tulee lähettää
-            sähköpostiosoitteeseemme:{" "}
+            hakemulomakkeen ja rekisteriselosteen. Sinun tulee tulostaa ja
+            täyttää hakemuslomake sekä ottaa  Hakemus pakollisine liitteineen
+            tulee lähettää sähköpostiosoitteeseemme:{" "}
             <a href="mailto: info@uskelanopintorahsto.fi">
               info@uskelanopintorahasto.fi.{" "}
             </a>

@@ -134,6 +134,7 @@ Navbar
   align-items: center;
   z-index: 200;
   background: var(--clr-white);
+  margin-left: 1rem;
 }
 .nav-center {
   width: 90vw;
@@ -166,12 +167,6 @@ Navbar
   display: none;
 }
 
-@media screen and (min-width: 576px) {
-  .nav-header {
-    margin-left: -1rem !important;
-  }
-}
-
 @media screen and (min-width: 1300px) {
   .toggle-btn {
     display: none;
@@ -182,7 +177,6 @@ Navbar
     overflow: hidden;
     white-space: nowrap;
   }
-
   .nav-links li {
     margin-right: 2rem;
   }

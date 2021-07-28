@@ -33,6 +33,7 @@ const About = () => {
             osoitteesi sijainnin kartalla.
           </p>
           <p className="kartta1">
+            <h4 className="ohjeettitle">Kartta Uskelan rajoista</h4>
             Mikäli haluat tarkistaa ennen hakemusta, että osoitteesi on Uskelan
             alueella voit hyödyntää{" "}
             <span>
@@ -40,11 +41,13 @@ const About = () => {
                 kaupungin karttapalvelua
               </a>
             </span>
-            . Vanha Salon alue ja vanhat ympäryskunnat kuten Halikko, Pertteli
-            ja Muurla eivät kuulu Uskelan alueeseen. Vanha Salon alue on
-            merkitty karttaan liilan värisillä rajoilla. Kaupungin
-            karttapalvelussa voit myös tarkistaa oman osoitteesi sijainnin
-            kartalla.
+            . Entinen Uskelan kunta on kartan keskellä. Uskelan kunnan
+            rajanaapureita olivat entiset Halikon, Kuusjoen, Perttelin, Muurlan
+            ja Perniön kunnat, joiden alueet eivät siis olleet osa Uskelaa.
+            Myöskään vanha Salon kauppalan alue ei kuulunut Uskelaan. Tämä,
+            vanhan kauppalan alueen vuoden 1966 raja, on merkitty karttaan
+            violetilla rajaviivalla. Kaupungin karttapalvelussa, sen
+            hakutoiminnolla, voit tarkistaa oman osoitteesi sijainnin kartalla.
           </p>
           <p>
             <h4 className="ohjeettitle">Hakemuksen palautus</h4>

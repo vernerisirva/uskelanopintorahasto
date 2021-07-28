@@ -19,7 +19,7 @@ const About = () => {
             ></iframe>
           </div>
           <p className="kartta2">
-            <h4 className="ohjeettitle">Kartta Uskelan rajoista</h4>
+            <h4 style={styles.ohjeettitle}>Kartta Uskelan rajoista</h4>
             Mikäli haluat tarkistaa ennen hakemusta, että osoitteesi on Uskelan
             alueella voit hyödyntää yllä olevaa kaupungin karttaa. Vanha Salon
             alue ja vanhat ympäryskunnat kuten Halikko, Pertteli ja Muurla eivät
@@ -47,7 +47,6 @@ const About = () => {
             kartalla.
           </p>
           <p>
-            <h4 className="ohjeettitle">Hakemuksen palautus</h4>
             Alla olevista painikkeista löydät hakemusilmoituksen,
             hakemuslomakkeen ja rekisteriselosteen. Sinun tulee tulostaa ja
             täyttää hakemuslomake sekä ottaa valokuva tai skannata täytetty
@@ -64,12 +63,11 @@ const About = () => {
           <p>
             Hakemuksen liitteineen voi myös palauttaa OP Lounaismaan Salon
             konttorin neuvontaan viimeistään torstaina 30.9. klo 16.30 mennessä.
-            Vain määräaikaan mennessä palautetut hakemukset käsitellään.
           </p>
-          <h4 className="ohjeettitle">Ongelmatilanteessa</h4>
+          <p>Vain määräaikaan mennessä palautetut hakemukset käsitellään.</p>
+          <p>Ongelmatilanteessa ota yhteyttä jaakko.halkilahti@mtk.fi</p>
           <p>
-            Ongelmatilanteessa ota yhteyttä jaakko.halkilahti@mtk.fi. Jos
-            hakemuksen sähköisessä lähetyksessä on ongelmia tai et saa
+            Jos hakemuksen sähköisessä lähetyksessä on ongelmia tai et saa
             vastaanottokuittausta, hakemus on syytä palauttaa paperisena OP
             Lounaismaan Salon konttoriin.
           </p>

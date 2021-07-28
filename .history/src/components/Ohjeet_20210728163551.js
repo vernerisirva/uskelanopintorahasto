@@ -67,12 +67,8 @@ const About = () => {
             Vain määräaikaan mennessä palautetut hakemukset käsitellään.
           </p>
           <h4 className="ohjeettitle">Ongelmatilanteessa</h4>
-          <p>
-            Ongelmatilanteessa ota yhteyttä jaakko.halkilahti@mtk.fi. Jos
-            hakemuksen sähköisessä lähetyksessä on ongelmia tai et saa
-            vastaanottokuittausta, hakemus on syytä palauttaa paperisena OP
-            Lounaismaan Salon konttoriin.
-          </p>
+          <p>Ongelmatilanteessa ota yhteyttä jaakko.halkilahti@mtk.fi</p>
+
           <p className="hakemuspainike">
             <button className="btn">
               <a href={""}>

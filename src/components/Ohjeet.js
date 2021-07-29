@@ -76,7 +76,7 @@ const About = () => {
             vastaanottokuittausta, hakemus on syytä palauttaa paperisena OP
             Lounaismaan Salon konttoriin.
           </p>
-          <p className="hakemuspainike">
+          <div className="hakemuspainike">
             <button className="btn">
               <a href={""}>
                 {" "}
@@ -95,7 +95,7 @@ const About = () => {
                 <span className="linkki">Rekisteriseloste</span>{" "}
               </a>
             </button>{" "}
-          </p>
+          </div>
           <div className="about-stack"></div>
         </article>
       </div>

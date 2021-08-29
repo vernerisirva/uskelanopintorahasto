@@ -15,16 +15,21 @@ const Jobs = () => {
         <>
           <div className="blogs-center blog">
             <StaticImage
-              src="../images/kuva1.jpg"
+              src="../images/kirja.jpg"
               className="blog-img"
             ></StaticImage>
             <div className="blog-card">
               <h3>Apurahan haku 2021</h3>
-              <h5>
-                Apurahan haku alkaa 29.8.2021 ja päättyy syyskuun loppussa.
-              </h5>
+              <p>
+                Apurahan hakuaika on nyt alkanut ja päättyy 30.9.2021.
+                Hakemukset liitteineen tulee jättää Lounaismaan Osuuspankin
+                infoon tai säätiön verkkosivujen www.uskelanopintorahasto.fi
+                kautta. Ainoastaan määräaikaan mennessä tulleet hakemukset
+                huomioidaan.
+              </p>
               <div className="blog-footer">
-                <p>19.07.2021</p>
+                {/*                 <p>19.07.2021</p>
+                 */}{" "}
               </div>
             </div>
           </div>

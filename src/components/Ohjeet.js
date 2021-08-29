@@ -2,6 +2,7 @@ import React from "react"
 import Title from "../components/Title"
 import Hakemuslomake from "../assets/Hakemuslomake.pdf"
 import Rekisteriseloste from "../assets/Rekisteriseloste.pdf"
+import Hakemusilmoitus from "../assets/Hakemusilmoitus.pdf"
 
 const About = () => {
   return (
@@ -78,7 +79,7 @@ const About = () => {
           </p>
           <div className="hakemuspainike">
             <button className="btn">
-              <a href={""}>
+              <a href={Hakemusilmoitus}>
                 {" "}
                 <span className="linkki">Hakemusilmoitus</span>{" "}
               </a>

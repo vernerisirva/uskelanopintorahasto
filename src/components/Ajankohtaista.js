@@ -19,13 +19,9 @@ const Jobs = () => {
               className="blog-img"
             ></StaticImage>
             <div className="blog-card">
-              <h3>Apurahan haku 2021</h3>
+              <h3>Apurahojen maksu 2021</h3>
               <p>
-                Apurahan hakuaika on nyt alkanut ja päättyy 30.9.2021.
-                Hakemukset liitteineen tulee jättää Lounaismaan Osuuspankin
-                infoon tai säätiön verkkosivujen www.uskelanopintorahasto.fi
-                kautta. Ainoastaan määräaikaan mennessä tulleet hakemukset
-                huomioidaan.
+              Vuoden 2021 apurahat maksetaan 10.12.2021.
               </p>
               <div className="blog-footer">
                 {/*                 <p>19.07.2021</p>

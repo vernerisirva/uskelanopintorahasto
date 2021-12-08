@@ -38,6 +38,9 @@
     "gatsby"
   ],
   "license": "0BSD",
+  "resolutions": {
+    "minipass": "2.7.0"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",

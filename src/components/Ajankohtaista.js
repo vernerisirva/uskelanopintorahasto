@@ -1,6 +1,4 @@
 import React from "react"
-// import PropTypes from 'prop-types'
-// import { Link } from "gatsby"
 import { graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { FaProductHunt } from "react-icons/fa"
@@ -19,14 +17,8 @@ const Jobs = () => {
               className="blog-img"
             ></StaticImage>
             <div className="blog-card">
-              <h3>Apurahojen maksu 2021</h3>
-              <p>
-              Vuoden 2021 apurahat maksetaan 10.12.2021.
-              </p>
-              <div className="blog-footer">
-                {/*                 <p>19.07.2021</p>
-                 */}{" "}
-              </div>
+              <h3>Apurahojen haku 2022</h3>
+              <p>Vuoden 2022 apurahojen haku alkaa syyskuussa</p>
             </div>
           </div>
         </>

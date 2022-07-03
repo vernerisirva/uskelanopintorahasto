@@ -27,11 +27,6 @@ const data = [
     text: "Hakemus",
     url: "/#hakemus",
   },
-  // {
-  //   id: 6,
-  //   text: "Kuvia",
-  //   url: "/kuvia",
-  // },
 ]
 
 const tempLinks = data.map(link => {

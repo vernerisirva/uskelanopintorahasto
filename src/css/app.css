@@ -663,3 +663,7 @@ Sidebar Animation
 .ohjeettitle {
   margin-top: 1rem;
 }
+
+.logo {
+  color: var(--clr-grey-1);
+}
